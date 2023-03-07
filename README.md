@@ -2,10 +2,8 @@
 This is a repository that unifies different official repository for ROS2 and the Universal Robot robots. Simulation with Ignition Gazebo is integrated. Both real robot and simulated ones work with Moveit2 (including moveit servo). I did not managed to use git submodules since I made little modification in almost every package.
 
 
+https://user-images.githubusercontent.com/93198865/223504480-c2a297b7-8528-48a2-80bd-3883b3e9e8fe.mp4
 
-<video width="600" height="400" controls>
-  <source src="gazebo_moveit_demo.mp4" type="video/mp4">
-</video>
 
 ## Requirements:
 
