@@ -1,0 +1,31 @@
+<?xml version='1.0'?>
+<sdf version='1.6'>
+  <model name='table'>
+    <static>true</static>
+    <link name='table_link'>
+      <pose>-0.5 -0.35 0 0 -0 0</pose>
+      <inertial>
+        <mass>80</mass>
+      </inertial>
+      <collision name='collision'>
+        <geometry>
+          <mesh>
+            <uri>meshes/mesh.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name='visual'>
+        <geometry>
+          <mesh>
+            <uri>meshes/mesh.stl</uri>
+          </mesh>
+        </geometry>
+        <material>
+		<ambient>0.0 0.0 1.0 1</ambient>
+		<diffuse>0.0 0.0 1.0 1</diffuse>
+		<specular>0.0 0.0 1.0 1</specular>
+        </material>
+      </visual>
+    </link>
+  </model>
+</sdf>
