@@ -391,6 +391,19 @@
     <xacro:soft_robotics_gripper prefix="${prefix}" parent="tool0" >
     <origin xyz="0 0 0.004" rpy="0 ${-pi/2} ${pi}"/>
   </xacro:soft_robotics_gripper>
-
   </xacro:macro>
+  <gazebo reference="wrist_3_joint">
+    <preserveFixedJoint>true</preserveFixedJoint>
+    <sensor name="force_torque_sensor" type="force_torque">
+      <pose>0 0 0 0 -0 0</pose>
+      <update_rate>100</update_rate>
+      <always_on>true</always_on>
+      <visualize>true</visualize>
+      <topic>force_torque</topic>
+      <force_torque>
+        <frame>sensor</frame>
+        <measure_direction>parent_to_child</measure_direction>
+      </force_torque>
+    </sensor>
+  </gazebo>
 </robot>
