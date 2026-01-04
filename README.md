@@ -1,7 +1,6 @@
 # Universal_Robots_ROS2_Driver-Moveit-Simulation
 *Warning: This is no longer mantained!*  
-This is a repository that unifies different official repository for ROS2 and the Universal Robot robots. Simulation with Ignition Gazebo is integrated. Both real robot and simulated ones work with Moveit2 (including moveit servo). I did not managed to use git submodules since I made little modification in almost every package.
-
+This is a repository that unifies different official repository for ROS2 and the Universal Robot robots. Simulation with Ignition Gazebo is integrated. Both real robot and simulated ones work with Moveit2 (including moveit servo).
 
 https://user-images.githubusercontent.com/93198865/223504480-c2a297b7-8528-48a2-80bd-3883b3e9e8fe.mp4
 
